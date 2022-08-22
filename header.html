@@ -1,0 +1,36 @@
+<script type="text/javascript">
+  //api get online players
+  let url = 'https://api.mcsrvstat.us/2/51.255.225.36:25613';
+
+  fetch(url)
+  .then(res => res.json())
+  .then((out) => {
+    if(out["online"] == true)
+    {
+      document.getElementById("playernum").innerHTML = out["players"]["online"]
+      document.getElementById("isonline").innerHTML = "✔️";
+    }
+    else {
+      document.getElementById("playernum").innerHTML = 0;
+      document.getElementById("isonline").innerHTML = "❌";
+    }
+  })
+  .catch(err => { throw err });
+</script>
+<!--Logo-->
+<div class="toplogo">
+<div class="playernum"><a><img src="images/head.gif"></img> <span id="playernum">?</span> joueurs connectés | <span id="isonline">?</span></a></div>
+<img id="toplogo" src="images/logo.png"></img>
+</div>
+<div class="lightning flashit"></div>
+<!--Navigation Bar-->
+<nav>
+  <ul>
+      <li><a href="/"><img src="images/logo.png"></a></li>
+      <li><a href="rejoin">Nous rejoindre</a></li>
+      <!--<li><a href="boutique.html">Boutique</a></li>-->
+      <li><a href="resources">Ressources</a></li>
+	  <li><a href="https://starwarsrp.fr/forum/" target="_blank">Forum</a></li>
+      <li><a href="infos">Infos</a></li>
+  </ul>
+</nav>

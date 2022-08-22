@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="global.css">
+<meta charset="utf-8">
+<link rel="icon" href="favicon.ico">
+    <!--Chargement du header avec JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<title>StarWarsRP - Univers</title>
+	<script>
+      $(function(){
+          $('#header').load('header.html');
+      });
+      $(window).on('load', function(){
+        $("div.maintxtarea").fadeIn(2000);
+      });
+    </script>
+</head>
+<body>
+<div id="header">
+    </div>
+
+	<div class="maintxtarea" id="mainnotcentered">
+	<h1 align="center">- Planètes -<h1>
+	<p><img src='images/Tatooine.png' style='width:200px ;height:auto ; top: 20px ; position:relative  ;'>Tatooine est une planète vaste et sabloneuse.
+	Qui cache de nombreux secret, mais aussi plusieurs lieux.</p>
+	<h1 align="center">- Lieux Emblématiques -<h1>
+	</div>
+</body>
+</html>

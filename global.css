@@ -1,0 +1,640 @@
+/*Poppins Font Google CSS*/
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #303030;
+}
+
+.toplogo{
+  width: 100%;
+  height: 240px;
+  background-image: url(images/LogoBG.png);
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+#toplogo{
+  display: block;
+  vertical-align: middle;
+  height: 160px;
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+.playernum{
+  display: inline-block;
+  color: white;
+  font-family: 'Poppins';
+  padding-left: 20px;
+  padding-top: 15px;
+  text-shadow: 0px 1px 0px #2f6627;
+  font-size: 12px;
+}
+
+.playernum img{
+  width:15px;
+  height:15px;
+  position: relative;
+  top: 2.5px;
+}
+
+.playernum a{
+  background-color: #202020;
+  padding: 5px 5px 5px 5px;
+}
+
+.maintxtarea{
+  margin: 20px;
+  margin-bottom: 50px;
+  font-family: 'Poppins';
+  text-align: center;
+}
+
+.maintxtarea p{
+  color: #F5F5F5;
+  font-size: 20px;
+  line-height: 1.6;
+  /*padding-left: 15px;*/
+  padding-bottom: 20px;
+}
+
+.maintxtarea h1{
+  color: #F5F5F5;
+  padding: 8px;
+  padding-bottom:15px;
+  font-size:40px;
+}
+
+.maintxtarea h2{
+  color: #F5F5F5;
+  padding: 8px;
+  padding-bottom:15px;
+  font-size:30px;
+}
+
+.maintxtarea img{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.maintxtarea a:link{
+  color: #3498db;
+}
+
+.maintxtarea a:visited{
+  color: #9b59b6;
+}
+
+#mainnotcentered{
+  text-align: left;
+}
+
+/*Nav-bar*/
+
+nav{
+  width: 100%;
+  height: 63px;
+  background-color: #202020;
+}
+
+nav ul{
+  float: left;
+  padding-left: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+  height: 57px;
+  min-width: 50px;
+  border-radius: 5px;
+
+  -webkit-animation-name: fadeOutOpacity;
+	        animation-name: fadeOutOpacity;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 0.2s;
+	        animation-duration: 0.2s;
+}
+
+nav ul li:hover{
+  background-color: #303030;
+
+  -webkit-animation-name: fadeInOpacity;
+	        animation-name: fadeInOpacity;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 0.3s;
+	        animation-duration: 0.3s;
+}
+
+nav ul li a{
+  display: block;
+  font-family: 'Poppins';
+  color: #989898;
+  font-size: 15px;
+  padding: 17px 14px;
+  text-decoration: none;
+}
+
+nav ul li img{
+  display: block;
+  height: 20px;
+  width: 20px;
+  padding: 0px 0px;
+}
+
+nav ul li ul{
+  display: none;
+  position: absolute;
+  background-color: #202020;
+  padding: 7px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+nav ul li ul li{
+  width: 130px;
+  border-radius: 5px;
+}
+
+nav ul li ul li a{
+  padding: 10px 10px;
+}
+
+nav ul li ul li a:hover{
+  background-color: #282828;
+  border-radius: 5px 5px 5px 5px;
+}
+
+iframe{
+  padding: 3px;
+}
+
+/*Fade in animation menu*/
+@-webkit-keyframes fadeInOpacity {
+  0% {
+    background-color:rgba(48, 48, 48, 0);
+	}
+	100% {
+    background-color:rgba(48, 48, 48, 1);
+	}
+}
+
+@keyframes fadeInOpacity {
+	0% {
+    background-color:rgba(48, 48, 48, 0);
+	}
+	100% {
+    background-color:rgba(48, 48, 48, 1);
+	}
+}
+
+@-webkit-keyframes fadeOutOpacity {
+  0% {
+    background-color:rgba(48, 48, 48, 1);
+	}
+	100% {
+    background-color:rgba(48, 48, 48, 0);
+	}
+}
+
+@keyframes fadeOutOpacity {
+	0% {
+    background-color:rgba(48, 48, 48, 1);
+	}
+	100% {
+    background-color:rgba(48, 48, 48, 0);
+	}
+}
+
+/*Nous rejoindre*/
+.discordinvit{
+  margin: 15px;
+  margin-bottom: 75px;
+  padding: 10px;
+  font-family: 'Poppins';
+  color: #F5F5F5;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.downloadButton {
+  background-color:#3498db;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#252525;
+	font-family:'Poppins';
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 11px;
+	text-decoration:none;
+}
+.downloadButton:hover {
+	background-color:#469fdb;
+  color:#252525;
+}
+.downloadButton:active {
+	position:relative;
+	top:1px;
+  color:#252525;
+}
+.downloadButton:link,.downloadButton:visited {
+  color:#252525 !important;
+}
+
+/*Boutique*/
+.buyButton {
+	background-color:#50d93b;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#303030;
+	font-family:'Poppins';
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.buyButton:hover {
+	background-color:#72e161;
+}
+.buyButton:active {
+	position:relative;
+	top:1px;
+}
+.buyButton:link,.buyButton:visited {
+  color: #303030 !important;
+}
+
+.detailsButton {
+	background-color:#3c88d9;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#303030;
+	font-family:'Poppins';
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.detailsButton:hover {
+	background-color:#4b8fcf;
+}
+.detailsButton:active {
+	position:relative;
+	top:1px;
+}
+
+.paypalButton {
+	background-color:#F3B53C;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#303030;
+	font-family:'Poppins';
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.paypalButton:hover {
+	background-color:#FFC04C;
+}
+.paypalButton:active {
+	position:relative;
+	top:1px;
+}
+
+.boutique{
+  width: 100%;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.senateur{
+  display: inline-block;
+  width: 300px;
+  background-color:#444444;
+  text-align: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding-right: 7px;
+}
+
+.chancelier{
+  display: inline-block;
+  width: 300px;
+  background-color:#444444;
+  text-align: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding-right: 7px;
+}
+
+.empereur{
+  display: inline-block;
+  width: 300px;
+  background-color:#444444;
+  text-align: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+#contient{
+  padding-bottom: 8px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  color: white;
+  font-family:'Poppins';
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #444444;
+  margin: auto;
+  padding: 20px;
+  border: 0px solid #888;
+  width: 80%;
+  line-height: 1.6;
+}
+
+.modal-content p{
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.modal-content h1{
+  padding-bottom:15px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Ressources*/
+.wallpapers{
+  width: 100%;
+}
+
+.wallpaperdiv{
+  display: inline-block;
+  width: 400px;
+  height: 370px;
+  background-color:#444444;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.wallpaperdiv img{
+  width: 370px;
+  border-radius: 7px;
+  margin: 0;
+}
+
+.wallpaperdiv p{
+  position: relative;
+  top: 5px;
+  margin: 5px;
+}
+
+#downloadWallpaper{
+  margin: 15px;
+}
+
+.wallpaperdisplay{
+  width: 50%;
+  margin: 0 auto;
+  width: 370px;
+}
+
+.wallpaperdisplay:hover img{
+  cursor: pointer;
+  opacity: 0.7;
+  background:rgba(0,0,0,0.5);
+  transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+/*
+.wallpaperdiv .alignCenter
+{
+    padding: 5px 0;
+    padding-bottom: 20px;
+}
+
+.alignCenter{
+  text-align: center;
+}*/
+
+.wpbuttons {
+  opacity: 0;
+  width: 400px;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: center;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.wpbuttons:hover{
+  opacity: 1;
+}
+
+
+/*Animation*/
+.lightning{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 240px;
+  background-image: url(images/LogoBG.png);
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: brightness(3);
+  filter: brightness(3);
+  -o-filter: brightness(3);
+  -moz-filter: brightness(3);
+  z-index: 1;
+}
+
+.flashit{
+  -webkit-animation: flash ease-out 7s infinite;
+  -moz-animation: flash ease-out 7s infinite;
+  animation: flash ease-out 7s infinite;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes flash {
+	from { opacity: 0; }
+  92% { opacity: 0; }
+	93% { opacity: 0.6; }
+  94% { opacity: 0.2; }
+  96% { opacity: 0.9; }
+	to { opacity: 0; }
+}
+
+@keyframes flash {
+	from { opacity: 0; }
+    92% { opacity: 0; }
+	93% { opacity: 0.6; }
+    94% { opacity: 0.2; }
+    96% { opacity: 1; }
+	to { opacity: 0; }
+}
+
+/*slide*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor:pointer;
+  position:absolute;
+  top: 50%;
+  margin-top: -22px;
+  padding: 8px 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  transition: 0.6s ease;
+  border-radius: 10%;
+  user-select: none;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 13.3%;
+}
+.prev{
+  right:82% ;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #282828;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.active, .dot:hover {
+  background-color: #616161;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name:fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

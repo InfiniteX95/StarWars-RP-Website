@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>StarWarsRP</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="global.css">
+    <!--<script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
+    <!--Chargement du header avec JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(function(){
+          $('#header').load('header.html');
+      });
+      $(window).on('load', function(){
+        $("div.maintxtarea").fadeIn(2000);
+      });
+    </script>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://starwarsrp.fr/">
+    <meta property="og:title" content="StarWarsRP">
+    <meta property="og:description" content="Server Role-play minecraft francophone sur le thème de Star Wars.">
+    <meta property="og:image" content="http://starwarsrp.fr/images/logo.png"/>
+  </head>
+  <body>
+    <!--Header/Barre de navigation-->
+    <div id="header">
+    </div>
+
+    <div class="maintxtarea" id="main" style="display:none">
+      <!--<h1><img src='images/warning.png' style='width:50px; height:auto; top:20px; position:relative;'><a style="color: rgb(172, 1, 1);"> LE SERVEUR EST EN DÉVELOPPEMENT </a><img src='images/warning.png' style='width:50px; height:auto; top:20px; position:relative'></h1>-->
+      <h1>Bienvenue sur StarWarsRP !</h1>
+      <p>StarWarsRP est un serveur Minecraft <a style="color:orange">Roleplay</a> sur le thème de <a style="text-decoration: none;font-weight: bold;color: white;" href=https://www.swtor.com target="_blank">Star Wars : The Old Republic <i class="fas fa-external-link-alt"></i></a>
+        <br>Le serveur entame sa <a style="font-weight:bold;">deuxième version</a>, la première version ayant duré 1 an
+        <br>Le serveur est en version 1.7.10 <a style="color:greenyellow">moddé</a> et un <a href="installateur/download.html" target="_blank" style="color: rgb(0, 162, 255); text-decoration:none;"><i class="fas fa-file-download"></i> installateur</a> est fourni
+      </p>
+      <!--<h2>Trailer :</h2>-->
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/3KHUWpwzcwU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+	<!--<a href="#" class="buyButton">Acheter</a>-->
+  </body>
+</html>

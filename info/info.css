@@ -1,0 +1,62 @@
+/*Poppins Font Google CSS*/
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #303030;
+}
+
+.maintxtarea{
+  margin: 15px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-family: 'Poppins';
+  text-align: center;
+}
+
+.maintxtarea p{
+  color: #F5F5F5;
+  font-size: 20px;
+  line-height: 1.6;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.maintxtarea h1{
+  color: #F5F5F5;
+  padding: 8px;
+  padding-bottom:15px;
+  font-size:40px;
+}
+
+.maintxtarea h2{
+  color: #F5F5F5;
+  padding: 8px;
+  padding-bottom:15px;
+  font-size:30px;
+}
+
+.maintxtarea img{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.maintxtarea a:link{
+  color: #3498db;
+}
+
+.maintxtarea a:visited{
+  color: #9b59b6;
+}
+
+#mainnotcentered{
+  text-align: left;
+}
+
+img {
+  padding-right: 15px;
+}
